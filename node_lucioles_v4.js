@@ -33,7 +33,7 @@ async function listDatabases(client){
 // disconnect from our cluster.
 async function v0(){
     const mongoName = "lucioles"                   //Nom de la base
-    const mongoUri = 'mongodb+srv://dbUser:dbPassword@cluster0.aufmq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'; //URL de connection		
+    const mongoUri = 'mongodb+srv://dbUser:dbPassword@cluster0.aufmq.mongodb.net/lucioles?retryWrites=true&w=majority'; //URL de connection		
     //const uri = 'mongodb://10.9.128.189:27017/'; //URL de connection		
     //const uri = 'mongodb+srv://menez:mettrelevotre@cluster0-x0zyf.mongodb.net/test?retryWrites=true&w=majority';
     
