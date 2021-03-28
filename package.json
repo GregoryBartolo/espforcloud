@@ -1,0 +1,28 @@
+{
+  "engines": {
+    "node": "10.15.2"
+  }, 
+  "name": "espforcloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_lucioles_v0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_lucioles_v4.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregoryBartolo/espforcloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregoryBartolo/espforcloud/issues"
+  },
+  "homepage": "https://github.com/GregoryBartolo/espforcloud#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5",
+    "mqtt": "^4.2.6"
+  }
+}
