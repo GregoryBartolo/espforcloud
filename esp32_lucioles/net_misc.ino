@@ -14,8 +14,8 @@ void connect_wifi(){
  //const char* ssid = "HUAWEI-6EC2";
  //const char *password= "FGY9MLBL"; 
  //const char* ssid = "HUAWEI-553A";
- const char* ssid = "Freebox-50CE6E";
- const char *password= "benedicte.*-inprobos6-conquest*5-indas#";
+ const char* ssid = "Livebox-3EC2";
+ const char *password= "bartolocode";
  Serial.println("\nConnecting Wifi to ");
  Serial.println(ssid);
  
