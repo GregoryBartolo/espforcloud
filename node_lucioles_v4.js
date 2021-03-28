@@ -215,7 +215,7 @@ app.get('/esp/:what', function (req, res) {
     // R�cup�ration des nb derniers samples stock�s dans
     // la collection associ�e a ce topic (wa) et a cet ESP (wh)
     const nb = 200;
-    key = wa
+    key = wa;
     //dbo.collection(key).find({who:wh}).toArray(function(err,result) {
     dbo.collection(key).find({who:wh}).sort({_id:-1}).limit(nb).toArray(function(err, result) {
 	if (err) throw err;
